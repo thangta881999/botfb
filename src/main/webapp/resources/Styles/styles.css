@@ -1,0 +1,153 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* css login */
+#body-login {
+	background-color: #00909C;
+}
+
+#body-flex-login {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-left {
+	display: flex;
+	width: 380px;
+	height: 612px;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("../images/background.jpg");
+	padding: 0 16px;
+}
+
+#header-top-left {
+	text-align: center;
+	color: white;
+}
+
+#header-bottom-left span {
+	color: white;
+	margin-left: 8px;
+}
+
+.header-login {
+	margin-top: 32px;
+}
+
+#text-logo {
+	font-size: 48px;
+}
+
+#hint-text-logo {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#header-bottom-left {
+	margin-bottom: 64px;
+}
+
+#container-login-right {
+	padding: 0 24px;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+#header-top-right {
+	font-size: 20px;
+	color: #878787;
+}
+
+.actived {
+	color: #DA7C79;
+}
+
+#container-social-login {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+#container-center-login-right input[type=text] {
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+#container-center-login-right input[type=submit] {
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+}
+
+.material-textinput {
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+
+.material-primary-button {
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+
+.input-icon-email {
+	background: url("../images/icons_mail.png") no-repeat scroll 6px 6px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 40px;
+}
+
+.input-icon-password {
+	background: url("../images/icons_password.png") no-repeat scroll 5px 5px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 40px;
+}
+
+.activedlink {
+	background: aqua;
+}
+
+.container-signup-form{
+	display: none;
+}
+
+#dangnhap{
+	cursor: pointer;
+}
+
+#dangky{
+	cursor: pointer;
+}
+/* End css login */
+
+	
+
+
+
